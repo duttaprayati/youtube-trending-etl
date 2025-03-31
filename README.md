@@ -1,2 +1,18 @@
-# youtube-trending-etl
-A real-world ETL pipeline using YouTube Data API and Python
+# YouTube Trending Videos – ETL Pipeline (India)
+
+This project demonstrates a real-world ETL pipeline using Python. We extract trending video data from YouTube’s Data API, transform it into structured tabular format, and load it into a SQLite database. This pipeline is designed to mimic production data engineering workflows.
+
+## Overview
+
+- **Extract**: Uses YouTube Data API v3 to fetch trending videos for India (`regionCode='IN'`)
+- **Transform**: Parses and cleans the JSON response, extracts relevant video info, and adds a timestamp
+- **Load**: Saves the clean data into a SQLite database (`youtube_trending.db`)
+- **Bonus**: Visualizes the most viewed, liked, and frequent channels in the trending list
+
+## 🛠️ Tech Stack
+
+- Python 3.x
+- pandas
+- SQLite
+- Google YouTube Data API
+- seaborn / matplotlib
