@@ -16,3 +16,13 @@ This project demonstrates a real-world ETL pipeline using Python. We extract tre
 - SQLite
 - Google YouTube Data API
 - seaborn / matplotlib
+
+
+## 🔧 Setup Instructions for API key
+
+1. Get a free API key from Google Cloud Console:
+   - Enable **YouTube Data API v3**
+   - Create API credentials
+2. Paste your API key into the script like:
+   ```python
+   YOUTUBE_API_KEY = "your_key_here"
